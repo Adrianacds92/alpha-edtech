@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastre-se</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+<form name="cadastro" action="test.php" method="get">
+
+  <fieldset>
+  
+  <legend>Cadastre-se</legend>
+  
+  <label for="email">E-mail</label>
+  <input type="text" id="email"><br><br>  
+  
+  <label for="repetiremail">Repetir e-mail</label>
+  <input type="text" id="repetiremail"><br><br> 
+  
+  <label for="senha">Senha</label>
+  <input type="password"><br><br>
+
+  <legend>Dados pessoais</legend><br>
+  <input type="radio" name="tipo" value="pfisica">Pessoa Fisica
+  <input type="radio" name="tipo" value="pjuridico">Pessoa juridica
+<br><br>
+  
+  <label for="nome">Nome Completo</label>
+  <input type="text" id="nome"><br><br> 
+  
+  <label for="idade">Idade</label>
+  <input type="number" name="idade" value="idade"><br><br>
+  
+  <label for="datanascimento">Data de Nascimento</label>
+  <input id="date" type="date"><br><br> 
+  
+  <label for="facilidade">Facilidade de uso do formulario:</label>
+  <input type="range">
+  <br><br>
+    
+<input type="checkbox" value="beceber novidades por e-mail">
+<label for="novidades">Receber novidades por e-mail </label><br><br>
+<input type="submit" value="Enviar">
+<input type="reset" value= "Limpar">
+<br><br>
+
+  </fieldset>
+</form>
+
+</body>
+</html>
