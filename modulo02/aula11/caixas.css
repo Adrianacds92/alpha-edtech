@@ -1,0 +1,72 @@
+h2 {
+    text-align: center;
+    background-color: rgb(139, 6, 6);
+    border: 1px solid rgb(20, 5, 5);
+    padding: 20px;
+    margin: 30px;
+    color: rgb(29, 24, 24)
+
+}
+
+div {
+    width:100px;
+    height:100px;
+    border:rgb(161, 19, 19) solid 1px;
+    }
+
+#d1 {
+    text-align: center;
+    background-color: rgb(221, 156, 156);
+    border: 5px solid rgb(153, 26, 54);
+    padding: 15px;
+    margin: 20px;
+    color: white
+    }
+
+#d2 {
+    text-align: center;
+    background-color: rgb(148, 17, 17);
+    border: 5px solid rgb(197, 183, 186);
+    padding: 15px;
+    margin: 20px;
+    color: white
+    }
+
+#d3 {
+    text-align: center;
+    background-color: rgb(95, 6, 58);
+    border: 5px solid rgb(146, 85, 148);
+    padding: 15px;
+    margin: 20px;
+    color: white
+    }
+    
+#d4 {
+    border:rgb(161, 19, 19) solid 1px;
+    text-align: center;
+    background-color: rgb(57, 128, 168);
+    border: 5px solid rgb(64, 26, 153);
+    padding: 15px;
+    margin: 20px;
+    color: white
+    }
+
+#d5{
+    border:rgb(161, 19, 19) solid 1px;
+    text-align: center;
+    background-color: rgb(9, 75, 24);
+    border: 5px solid rgb(170, 212, 195);
+    padding: 15px;
+    margin: 20px;
+    color: white
+    }
+
+#d6{
+    border:rgb(161, 19, 19) solid 1px;
+    text-align: center;
+    background-color: rgb(153, 147, 61);
+    border: 5px solid rgb(173, 168, 118);
+    padding: 15px;
+    margin: 20px;
+    color: white
+    }

@@ -1,0 +1,29 @@
+h1 {
+    color:rgb(153, 17, 17);
+   font-size: 100px;
+   }
+
+div {
+    background: rgb(221, 48, 48);
+    width: 200px;
+    height: 300px;
+    text-align: center; 
+    color: rgb(14, 9, 9);
+    float: left;
+    margin: 0 0 60px 15px; 
+    }
+
+#d1 {
+    overflow: visible;
+}    
+#d2 {
+    overflow: scroll;
+} 
+
+#d3 {
+    overflow: hidden;
+}  
+
+#d4 {
+    overflow: auto;
+}
