@@ -1,0 +1,49 @@
+#d1 {
+  border: 0.5rem outset palevioletred;
+  outline: 0.5rem solid burlywood;
+  box-shadow: 0 0 0 2rem darkcyan;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
+
+#d2 {
+    height: 80px;
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: palevioletred;
+    border-width: 5px;
+    box-sizing: border-box;
+    border-style: dotted;
+    text-align: center;
+}
+
+#d3 {
+    height: 80px;
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: burlywood;
+    border-width: 5px;
+    box-sizing: border-box;
+    border-style: double;
+    text-align: center;
+}
+
+#d4 {
+    height: 80px;
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: darkcyan;
+    border-width: 5px;
+    box-sizing: border-box;
+    border-style: inset;
+    text-align: center;
+}

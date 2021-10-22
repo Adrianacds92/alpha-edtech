@@ -1,0 +1,31 @@
+div {
+    width:400px;
+    height:400px;
+    border:#000 solid 1px;
+    display:inline-table;
+    color:#000;
+    font-size:60px;
+}
+
+#gr1 {
+    background-color: #F00
+}
+#gr2 {
+    background-color: rgb(153,102,153,0.2);
+}
+
+#gr3 { 
+    background: linear-gradient(to bottom, #F00 0%, #00F 25%, #FF0 50%);
+}
+
+#gr4 {
+    background-image: url(coracao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gr5 {
+
+    background-image: url(coracao.png), url(coracao.png), url(coracao.png), url(coracao.png);
+    background-repeat: no-repeat, repeat-x, repeat;
+}
