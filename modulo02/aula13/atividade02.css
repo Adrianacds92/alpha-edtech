@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(168, 196, 240);
+}
+
+.horizontal {
+    writing-mode: horizontal-tb;
+    color: red;
+}
+  
+.vertical {
+    writing-mode: vertical-rl;
+    color: green;
+}
