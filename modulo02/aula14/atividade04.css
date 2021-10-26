@@ -1,0 +1,41 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    font-family: 'Festive', cursive;
+    background-color: white;
+    text-align: center;
+    font-size: 50pt;
+}
+
+p {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+  
+li {
+    border: solid 1px black;
+}
+
+a:link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+   
+a:visited {
+       color: rgb(105, 16, 10);
+}  
+   
+a:hover {
+       text-decoration: underline;
+       background-color: white;
+}
+   
+a:active {
+       background-color: wheat
+   };

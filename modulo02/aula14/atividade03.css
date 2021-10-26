@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Branda-yolq";
+  src: url("Branda-yolq.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background-color: rgb(235, 153, 167);
+
+}
+h1 {
+    font-family: "Branda-yolq";
+    font-size: 80px;
+    text-decoration: underline wheat;
+    text-align: center;
+  }
+
+.p1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;    
+}
+  
+  
+.p2 {
+    font-family: "Lucida Console", "Courier New", monospace;   
+}
+  
+.perfil-foto {  
+    max-height: 500px;
+    box-shadow: 0px 4px 4px rgba(116, 15, 15, 0.25);
+}
+
+fieldset {
+  background-color: wheat;
+  
+}
+legend {
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+  color:purple;
+}

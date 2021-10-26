@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(204, 197, 197);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50pt;
+}
+
+a:link {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ text-decoration: none;
+}
+
+a:visited {
+    color: rgb(10, 105, 84);
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(85, 173, 85);
+}
+
+a:active {
+    background-color: rgb(208, 255, 0);
+}
