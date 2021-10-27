@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    background-color: white;
+    font-size: 50pt;
+    font-family: se;
+}
+
+body {
+    background-color: wheat;
+}
+
+div {
+    width:350px;
+    height:350px;
+    border:#000 solid 1px;
+    display:inline-table;
+    color:white;
+    font-size:60px;
+    text-align: center;
+}
+
+#bloco1 {
+    background-color: #ff0000;
+}
+
+#bloco2 {
+    background-color: #ff000080;
+}
+
+#bloco3 {
+    background-color: rgb(0, 0, 255);
+}
+
+#bloco4 {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+#bloco5 {
+    background-color: hsl(120, 100%, 50%);
+}
+
+#bloco6 {
+    background-color: coral;
+}
+
+#bloco7 {
+    color: purple;
+    border: 10px solid currentcolor;
+}
