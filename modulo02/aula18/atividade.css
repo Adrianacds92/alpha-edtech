@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.print {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.print .header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(5, 5, 70);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.header img {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: 50px;
+   left: 70px;
+   border: 5px solid white;
+}
+
+
+.header-text {
+    color: white;
+    width: 60%;
+    margin-left: auto;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: normal;
+  
+}
+
+.header-text p {
+    font-size: 20px;
+    color: lightgrey;
+}
+
+
+.icone a {
+    display: inline-flex;
+    margin-top: 20%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(5, 5, 70);
+    color: white;   
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding: 32px;   
+    list-style: none;
+}
+
+.letf{
+    width: 30%;
+    background-color: lightgrey;
+    text-align: center;
+    
+}
+
+.letf .contato {
+    margin-top: 130px;
+    padding: 0 30px;
+
+}
+.contato h4 {
+   font-size: 30px;
+   font-weight: normal;
+   margin: 20px 0;
+}
+
+.contato h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contato p {
+    font-size: 17px;
+}
+
+.skills {
+    margin-top: 30px;
+    
+}
+
+.skills h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.right {
+    width: 70%;    
+    padding: 50px;
+    background-color: white}
+
+.right h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+
+.right h1 span {
+    margin-right: 30px;
+    font-size: 50px;
+    color: lightgrey;
+}
+
+.right p {
+    padding-left: 70px;
+    text-align: justify;
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding: 32px;   
+    list-style: none;
+}

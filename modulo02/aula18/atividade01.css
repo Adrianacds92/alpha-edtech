@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100vh;
+}
+
+.left {
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 150%;
+    background-color: #003147;
+    color: white;
+}
+
+
+.perfil_texto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(74, 69, 69, 0.2);    
+}
+
+.perfil_texto .imagem-perfil {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.contato {
+    padding: 10px;
+}
+
+.titulo {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contato ul {
+    position: relative;
+}
+
+.contato ul li {
+    position: relative;
+    list-style: none;   
+}    
+
+.contato ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contato ul li span {
+    color: white;
+    font-weight: 300;
+}
+
+h1{
+    text-align: center;
+    font-size: 30pt;
+}
+.perfil_texto .imagem-perfil img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil_texto h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.4em;
+}
+
+.perfil_texto h2 span {
+    font-size: 0.8em;
+    font-weight: 30px;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 150%;
+    background-color: gray;
+}
