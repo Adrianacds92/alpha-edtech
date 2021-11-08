@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-content: stretch;
+    justify-content: stretch;
+}
+
+.inicio{
+    
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    position:sticky;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.inicio h4 {
+    margin: 0;
+    padding: 7px;
+    background-color: rgb(24,24,24);
+    color: rgb(166,162,162);
+    text-align: center;
+    letter-spacing: 0.25em;
+    font-family: var(--font_0);
+    font-weight: normal;
+}
+
+#menu {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    font-family: var(--font_0);
+    font-weight: normal;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+header h1 {
+    font-weight: lighter;
+    margin: 0%;
+    padding: 0px;
+}
+header h5 {
+    margin: 0%;
+    font-weight: lighter;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 10px 5px;
+    justify-content: space-between;
+}
+
+header > div > span {
+    margin: 0px;
+    display: flex;
+    border-top: 8px solid rgb(24,24,24);
+}
+
+main {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#logo {
+    display: flex;
+    background-image: url("https://static.wixstatic.com/media/baac51_88d59da2f5a844e9850ee580ab0c8b8d~mv2_d_4000_1782_s_2.jpg/v1/fill/w_1189,h_660,al_tl,q_85,usm_0.66_1.00_0.01/baac51_88d59da2f5a844e9850ee580ab0c8b8d~mv2_d_4000_1782_s_2.webp");
+    font-weight: lighter;
+    height: 660px;
+}
+
+#logo > div {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.15);  
+    align-items: center;
+    color:rgb(255,255,255);
+}
+
+#logo > div > div {
+    max-width: 401px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo h2 {
+    margin: 0px;
+    line-height: 1.1em;
+    font-size: 78px;
+    font-weight: lighter;  
+    padding-bottom: 20px;
+}
+
+
+#logo h4 {
+    margin: 0px;
+    font-weight:lighter;
+    line-height: 1.1em;
+    font-size: 15px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.botao {
+    margin: 0px;
+    padding: 8px 25px 8px 25px ;
+    font-weight:lighter;
+    line-height: 1.1em;
+    font-size: 14px;
+    border: 1px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+
+#social {
+    background-color: rgba(0, 0, 0, 0.15);  
+    padding-left: 80px;
+    padding-right: 80px;    
+    padding-bottom: 44px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.15); 
+}
+
+footer > div {
+    height: 150px;
+    
+    margin: 62px 0px 64px 0px;
+}
+
+
+
+
+
+
+
