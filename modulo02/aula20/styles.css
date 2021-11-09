@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ section {   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    position: fixed;
+    right: 20px;
+    top: 20px;
+} 
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.simbolo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.nome-logo h2 {
+    text-align: center;
+    color:#8FD3E8;
+    font-size:40px;
+}
+
+.nome-logo h3 {
+    text-align: center;
+    color:#8FD3E8;
+    font-size:20px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;      
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #F7F7F7;
+    line-height: 40px;
+    list-style: none;
+    
+}
+
+.menu > ul > li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu ul li:hover {
+   background-color: white;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+}  
+
+.galeria {    
+    width: 1403x;
+    height: 250px;
+   margin-top: 50% auto;
+}
+
+.galeria ul {
+    display: flex;
+    list-style: none; 
+}
+.galeria .foto h2{
+    position: relative;
+    width: 50%;
+    margin: 10px;
+}
+
+.text{
+    text-align: center;
+    color: pink;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 240px;
+
+}
+
+.tema {
+    text-align: center;
+}
+
+h2 { 
+    color:white;
+    font-size: 60px;
+}
+
+h3 {
+    color: white;
+    margin: 10px;
+}
+
+
+.titulo h2 {
+    margin-top: 100px;
+}
