@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Avaliação</title>
+
+</head>
+<body>
+        <div id="container-imagem">
+ <header>
+     <h1>Cheff Pizzaria</h1>
+ </header>
+ <main class="main">
+    <h2 class="main__title">Deixe sua opinião</h2>
+
+    <form action="" class="main__form">
+        <label for="fname" class="main__form__label">Nome Completo: </label>
+        <input type="text" name="name" id="fname">
+
+        <label for="fage" class="main__form__label">Idade: </label>
+        <input type="number" name="age" id="fage">
+
+        <p class="main__form__p">O que achou do ambiente da pizzaria?</p>
+        <input type="radio" onclick="ambienteOtimo()" name="ambiente" id="ambiente_Otimo" value="Otimo">
+        <label for="ambienteOtimo" class="main__form__label">Ótimo</label>
+        <input type="radio" onclick="ambienteRuim()" name="ambiente" id="ambiente_Ruim" value="Ruim">
+        <label for="ambienteRuim" class="main__form__label">Ruim</label>
+        <br />
+        <img src="" alt="descricao ambiente" class="pizzaria none">
+
+        <p class="main__form__p">O que achou da pizza?</p>
+        <input type="radio" onclick="pizzaOtimo()" name="pizza" id="pizza_Otimo" value="Otimo">
+        <label for="pizzaOtimo" class="main__form__label">Ótimo</label>
+        <input type="radio" onclick="pizzaRuim()" name="pizza" id="pizza_Ruim" value="Ruim">
+        <label for="pizzaRuim" class="main__form__label">Ruim</label>
+        <br />
+        <img src="" alt="descricao pizza" class="pizza none">
+
+        <p class="main__form__p">Indicaria a amigos ou familiares?</p>
+        <input type="radio" onclick="indicariaNao()" name="indicaria" id="indicaria_NAO" value="Nao">
+        <label for="indicariaNAO" class="main__form__label">Não</label>
+        <input type="radio" onclick="indicariaSim()" name="indicaria" id="indicaria_SIM" value="Sim">
+        <label for="indicariaSIM" class="main__form__label">Sim</label>
+        <br />
+        <img src="" alt="descricao pizza" class="indicaria none">
+        <br />
+        <input type="button" onclick="criarFeedback()" value="ENVIAR!" class="main__form__submit">
+    </form>
+    <h2 class="title">Opiniões dos clientes</h2>
+    <section class="feedback"></section>
+ </main>
+         </div>
+</body>
+</html>
