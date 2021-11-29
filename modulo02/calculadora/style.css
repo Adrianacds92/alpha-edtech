@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+main {
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+button {
+    border-radius: 4px;
+    border: 1px solid blue;
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
