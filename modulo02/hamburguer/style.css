@@ -1,0 +1,58 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('hamburguer.jpeg');
+    background-size: cover;
+}
+
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 40px;
+    color: red;
+}
+
+form {
+    text-align:center;
+    background-color: wheat;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2 {
+    color: white;
+    background-color: red;
+    border-radius: 20px;  
+    padding: 10px;
+}
+
+.formulario_submit{
+    margin: 40px 0;   
+}
+
+.pedidos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    border-radius: 20px;  
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+.pedidos > div {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
