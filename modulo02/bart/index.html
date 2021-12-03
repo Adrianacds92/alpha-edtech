@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Bart</title>
+</head>
+
+<body>
+    <fieldset>
+        <div id="quadro">
+            <h1>BART ESTÁ DE CASTIGO</h1>
+            <label for="repetição">Quantas veses a frase deve ser repetida?"</label>
+            <input name="repetição" id="repetição" type="number">
+            <button onclick="lousa()">Começar</button>
+        </div>
+
+        <table background="lousa.gif" width="657" height="352" valign="top"
+            style="background: url('lousa.gif') center / cover no-repeat white;">
+            <tr align="center">
+                <td>
+                    <div id="area" class="texto">                        
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <p>Vezes que a lousa foi apagada: <span id="apagou"></span></p>
+        <p>Linhas escritas: <span id="linhas"></span></p>
+        </div>
+    </fieldset>
+</body>
+
+</html>
