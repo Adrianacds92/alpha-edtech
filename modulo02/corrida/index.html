@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Corrida</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Corrida Maluca</h1>
+        <article>
+            <input type="button" onclick="executaCorrida(10)" value="Corrida Rápida" /><p>10 voltas</p>
+
+            <input type="button" onclick="executaCorrida(70)" value="Grande Prêmio" /><p>70 voltas</p>
+
+            <input type="button" onclick="executaCorrida(70)" value="Enduro" /><p>160 voltas</p>
+            </div>
+        </article>
+        <h2>COMPETIDORES</h2>
+        <div class="container">
+            <div class="racer">
+                <p>PEDRO</p>
+                <p>Velocidade mínima 150Km/h</p>
+                <p>Velocidade máxima 230Km/h</p>
+                <p>Derrapagem 3%</p>
+                <p id="pedro"></p>
+            </div>
+            <div class="racer">
+                <p>JUCA</p>
+                <p>Velocidade mínima 120Km/h</p>
+                <p>Velocidade máxima 260Km/h</p>
+                <p>Derrapagem 5%</p>
+                <p id="juca"></p>
+            </div>
+            <div class="racer">
+                <p>EDNA</p>
+                <p>Velocidade mínima 180Km/h</p>
+                <p>Velocidade máxima 220Km/h</p>
+                <p>Derrapagem 1%</p>
+                <p id="edna"></p>
+            </div>
+        </div>
+        <div class="result">
+            <p id="vencedor"></p>
+        </div>
+    </main>
+</body>
+
+</html>
