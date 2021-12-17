@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="titulo">Corrida maluca!</h1>
+    <p>Cada carrinho gerado pode ser de uma das 3 raridades abaixo: <br /><br />
+        Popular: 60% de chances;<br />
+        Sport: 35% de chances;<br />
+        Super Sport: 5% de chances;<br /> <br />
+    </p>
+    <p>Cada carrinho possui 3 atributos: </p><br />
+    <center>
+        <div class="info1">
+            <div class="info-car1">
+                Velocidade máxima; <br />
+                Popular: Min.: 180 km/h | Máx.: 200 km/h <br />
+                Sport: Min.: 195 km/h | Máx.: 215 km/h <br />
+                Super Sport: Min.: 210 km/h | Máx.: 230 km/h <br />
+            </div>
+
+            <div class="info-car2">
+                Velocidade mínima; <br />
+                Popular: Min.: 110 km/h | Máx.: 130 km/h <br />
+                Sport: Min.: 125 km/h | Máx.: 145 km/h <br />
+                Super Sport: Min.: 140 km/h | Máx.: 160 km/h <br />
+            </div>
+
+            <div class="info-car3">
+                Derrapagem (%); <br />
+                Popular: Min.: 3% | Máx.: 4% <br />
+                Sport: Min.: 2% | Máx.: 3% <br />
+                Super Sport: Min.: 1%| Máx.: 1.75% <br />
+            </div>
+        </div>
+    </center>
+
+    <form>
+        Selecione o tipo da corrida:<br /><br />
+        <input type="radio" name="tipo-corrida" id="corrida-rapida" value="10">
+        <label for="corrida-rapida">Corrida rápida (10 voltas)</label><br />
+        <input type="radio" name="tipo-corrida" id="grande-premio" value="70">
+        <label for="grande-premio">Grande prêmio (70 voltas)</label><br />
+        <input type="radio" name="tipo-corrida" id="enduro" value="160">
+        <label for="enduro">Enduro (160 voltas)</label><br /><br />
+        <button type="button" onclick=runGame()>Comece a corrida!</button>
+    </form>
+    <p id="ganhador"></p>
+    <div class="car-sorteados">
+        <p id="jogador-1"></p>
+        <p id="jogador-2"></p>
+        <p id="jogador-3"></p>
+    </div>
+    <div id="voltasvencidas"></div>
+    <h2 style="color: gold;" id="resultado"></h2>
+
+    <script src="main.js"></script>
+    </div>
+    </div>
+</body>
+</html>
