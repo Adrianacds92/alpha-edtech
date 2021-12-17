@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+p {
+    color: white;
+    padding: 0.5px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color:yellow;
+    margin: 30px;
+    font-size: 50px;
+}
+
+.info1 {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 25px;
+    color: red;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+form {
+    color: white;
+}
+
+#ganhador{
+    line-height: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline ;
+}
