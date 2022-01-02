@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Corrida</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="root">
+            <header><h1>Corrida Maluca</h1></header>
+            <input class="btn" type="button" value="Sortear os Carros" onclick="createrCar()">
+            <div id="info">
+                <div class="Edna">
+                    <h2 class="name">EDINA</h2>
+                    <ul>
+                        <li><strong>Carro: </strong> <span class="rarity">Padrão</span></li>
+                        <li><strong>Velocidade Mínima: </strong><span class="minSpeed">180</span> Km/h</li>
+                        <li><strong>Velocidade Máxima: </strong><span class="maxSpeed">220</span> Km/h</li>
+                        <li><strong>Derrapagem: </strong> <span class="drift">1</span>%</li> 
+                    </ul>
+                </div>
+                <div class="Juca">
+                    <h2 class="name">JUCA</h2>
+                    <ul>
+                        <li><strong>Carro: </strong> <span class="rarity">Padrão</span></li>
+                        <li><strong>Velocidade Mínima: </strong><span class="minSpeed">120</span> Km/h</li>
+                        <li><strong>Velocidade Máxima: </strong><span class="maxSpeed">260</span> Km/h</li>
+                        <li><strong>Derrapagem: </strong> <span class="drift">5</span>%</li>
+                    </ul>
+                    
+                    
+                </div>
+                <div class="Pedro">
+                    <h2 class="name">PEDRO</h2>
+                    <ul>
+                        <li><strong>Carro: </strong> <span class="rarity">Padrão</span></li>
+                        <li><strong>Velocidade Mínima: </strong><span class="minSpeed">150</span> Km/h</li>
+                        <li><strong>Velocidade Máxima: </strong><span class="maxSpeed">230</span> Km/h</li>
+                        <li><strong>Derrapagem: </strong> <span class="drift">3</span>%</li>
+                    </ul>
+                    
+                </div>    
+    
+            </div>
+
+            <h2>Modos de corrida</h2>
+            <ol>
+                <li>Corrida rápida (10 voltas),</li>
+                <li>Grande Prêmio (70 voltas)</li>
+                <li>Enduro (160 voltas).</li>
+                <li>Inserir o número de volta</li>
+            </ol>
+
+            <form action="#" method="get">
+                <input class="btn" type="button" value="Corrida Rápida" onclick="race(10)">
+                <input class="btn" type="button" value="Grande Prêmio" onclick="race(70)">
+                <input class="btn" type="button" value="Enduro" onclick="race(160)">
+                <label for="escolha"></label>
+                <input  type="number" id="escolha">
+                <input class="btn" type="button" value="opção" onclick="optionUser()">
+            </form>
+
+            <div id="statusCar">
+                <div class="Edna">
+                    <h2 class="player">EDINA</h2>
+                    <img src="topgearcarwhite.png" alt="">
+                    <p class="lap"></p>
+                    <p class="score"></p>
+                    <p class="level"></p>
+                    
+                </div>
+                <div class="Juca">
+                    <h2 class="player">JUCA</h2>
+                    <img src="topgearcarpurple.png" alt="">
+                    <p class="lap"></p>
+                    <p class="score"></p>
+                    <p class="level"></p>
+                </div>
+                <div class="Pedro">
+                    <h2 class="player">PEDRO</h2>
+                    <img src="topgearcarblue.png" alt="">
+                    <p class="lap"></p>
+                    <p class="score"></p>
+                    <p class="level"></p>                 
+                </div>
+                
+            </div>
+            <div id="vencedor">
+                <h4 id="mostrar"></h4>
+
+            </div>
+            
+        </div>
+        
+        <script src="script.js"></script>
+        
+    </body>
+</html>
