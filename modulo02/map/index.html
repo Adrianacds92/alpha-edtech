@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joan's Clothes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <h1 lang="en">Joan's Clothes</h1>
+        </header>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Cliente</legend>
+                <label for="name"></label>
+                <input class="inputClient" type="text" id="name" name="name" placeholder="Digite o nome do cliente" />
+                <label for="date"></label>
+                <input class="inputClient" type="date" id="date" name="date"
+                    placeholder="Informe a data de vencimento" />
+                <label for="price"></label>
+                <input class="inputClient" type="number" id="price" name="price" placeholder="Preço da compra" />
+            </fieldset>
+            <div>
+                <input class="inputClient" type="button" id="btn" value="Adicionar" onclick="addClient()" />
+                <input class="inputClient" type="button" id="btn" value="Calcular Juros" onclick="calcClient()" />
+            </div>
+
+        </form>
+        <table id="dados_cliente" >
+            <tr>
+                <td>Nome do Cliente</td>
+                <td>Data de Vencimento</td>
+                <td>Valor da Compra</td>
+                <td>Juros</td>
+            </tr>
+        </table>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
