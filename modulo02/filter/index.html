@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Joan's Clothes</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <div id="root">
+            <header>
+                <h1 lang="en">Joan's Clothes</h1>
+            </header>
+            <form action="#" method="get">
+                <h2>Pesquisar clientes</h2>
+                <!--             <fieldset>
+                    <legend>Cliente</legend> -->
+                <label for="name"></label>
+                <input class="inputClient" type="text" id="name" name="name" placeholder="Digite o nome do cliente" />
+                <label for="price"></label>
+                <input class="inputClient" type="number" id="minPrice" name="minPrice" placeholder="Preço mín. da compra" />
+                <label for="price"></label>
+                <input class="inputClient" type="number" id="maxPrice" name="maxPrice"
+                    placeholder="Preço máx. da compra" /><br>
+                <label for="date"></label>
+                <div id="dataInicio">
+                    <p>Data início</p>
+                    <input class="inputClient" type="date" id="initialDate" name="initialDate"
+                        placeholder="Data de Inicio" />
+                </div>
+                <div id="dataFinal">
+                    <p>Data final</p>
+                    <input class="inputClient" type="date" id="finalDate" name="finalDate" placeholder="Data de Fim" />
+                </div>
+                <div id="mês">
+                    <p>Mês referência</p><br>
+                    <select id="select">
+                        <option value=""></option>
+                        <option value="Janeiro">Janeiro</option>
+                        <option value="Fevereiro">Fevereiro</option>
+                        <option value="Março">Março</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Maio">Maio</option>
+                        <option value="Junho">Junho</option>
+                        <option value="Julho">Julho</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Setembro">Setembro</option>
+                        <option value="Outubro">Outubro</option>
+                        <option value="Novembro">Novembro</option>
+                        <option value="Dezembro">Dezembro</option>
+                    </select>
+                </div>
+                <!--             </fieldset>
+    -->
+                <div>
+                    <input class="inputClient" type="button" id="btnPesq" value="Pesquisar" onclick="fullFilter()" />
+
+
+
+                    <!--                 <input class="inputClient" type="button" id="btn" value="Adicionar" onclick="addClient()" />
+
+                    <input class="inputClient" type="button" id="btn" value="Calcular Juros" onclick="calcClient()" />
+
+                    <input class="inputClient" type="button" id="btn" value="Agrupar por títulos" onclick="agrCliente()" />
+
+                    <input class="inputClient" type="button" id="btn" value="Agrupar por data" onclick="agrDate()" /> -->
+                </div>
+            </form>
+
+            <table id="dados_cliente">
+                <thead>
+                    <tr>
+                        <th>Nome do Cliente</th>
+                        <th>Data de Vencimento</th>
+                        <th>Valor da Compra</th>
+                        <!-- <th>Juros</th> -->
+                    </tr>
+                </thead>
+                <tbody id="dataFilter">
+                    
+                </tbody>
+              
+            </table>
+        </div>
+
+
+        <div id="resultClients"></div>
+        <div id="filtrarData"></div>
+
+
+    </body>
+    <script src="js/main.js"></script>
+
+</html>
