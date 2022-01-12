@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+@font-face  {
+    font-family: "Authentic";
+    src: url(Authentic\ Sheldon.ttf);
+}
+header {
+    font-size: 2.5rem;
+    font-family: 'Authentic';
+    color: red;
+    background-color: #FFF;
+    width: 100%;
+    height: 13vh;
+    border-bottom: 4px solid black;
+    margin-bottom: 30px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 1rem;
+}
+
+#dataInicio {
+    display: inline-block;
+
+}
+#dataFinal {
+    display: inline-block;
+    margin-left: 35px;
+}
+#mês {
+    display: inline-block;
+    margin-left: 35px;
+}
+#btnPesq {
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 250px;
+}
+
+fieldset {
+    margin-top: 40px;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+body {
+    font-size: 62.5%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: #e6e1e1;
+}
+#btn {
+/*     margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px; */
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
+table {
+    width: 550px;
+    height: 80px;
+    font-size: 1.2rem;
+}
+#client {
+    display: flex;
+    flex-direction: column;
+}
+#calcJuros {
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+.inputClient {
+    font-size: 1.3;
+    padding: 1rem;
+    margin: 0.2rem;
+}
+
+table,td,tr,th {
+    border: solid 1px;
+  }
+
+#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
