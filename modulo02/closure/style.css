@@ -1,0 +1,42 @@
+body {
+    font-size: 15;
+}
+
+img {
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+
+@font-face  {
+    font-family: "Authentic";
+    src: url(Authentic\ Sheldon.ttf);
+}
+
+a {
+    font-size: 25;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Authentic';
+    font-size: 60px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#menu {
+    text-align: right;
+}
+
+p{
+    text-align: center;
+}
