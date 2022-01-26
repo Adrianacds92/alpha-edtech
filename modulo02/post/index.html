@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <h2>Consulte</h2>
+    <h5>Escolha o tipo de busca, digite o valor (id, nome ou email)</h5>
+    <select name="options" id="selectOptions">
+        <option value="id">ID</option>
+        <option value="name">NAME</option>
+        <option value="email">EMAIL</option>
+    </select>
+    <input type="text" id="search" onkeyup="req()" placeholder="Search"/>    
+    <span id="searchResult"></span>
+    <div id="result" style="display: flex; flex-direction: column;"></div>
+
+    <h3 id="resposta-filtro"></h3>
+
+    <h2>Adicionar cliente</h2>
+    <form>
+        <label for="fentradaid">Id: </label>
+        <input type="number" name="fentradaid" id="fentradaid">
+
+        <label for="fentradanome">Nome: </label>
+        <input type="text" name="fentradanome" id="fentradanome">
+
+        <label for="fentradaemail">Email: </label>
+        <input type="text" name="fentradaemail" id="fentradaemail">
+        <input type="submit" value="Enviar" id="fsubmit1">
+
+        <h3 id="resposta-adicionar"></h3>
+    </form>
+
+    <h2>Deletar cliente</h2>
+    <form>
+        <label for="fdeletaid">Id: </label>
+        <input type="radio" name="fdeletar" id="fdeletaid" value="id">
+
+        <label for="fdeletanome">Nome: </label>
+        <input type="radio" name="fdeletar" id="fdeletanome" value="name">
+
+        <label for="fdeletaemail">Email: </label>
+        <input type="radio" name="fdeletar" id="fdeletaemail" value="email">
+
+        <input type="text" name="fitemdeletar" id="fitemdeletar" value=>
+
+        <input type="submit" value="Enviar" id="fsubmit2">
+
+        <h3 id="resposta-deletar"></h3>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
