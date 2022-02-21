@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;600&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: DC;
+    src: url(Fontes/DC\ Comics.ttf);
+}
+@font-face {
+    font-family: House;
+    src: url(Fontes/Nowharehouse.ttf);
+}
+/* ***fonte resultado***
+@font-face {
+    font-family: Infected;
+    src: url(Fontes/INFECTED.ttf);
+}  */
+@font-face {
+    font-family: Superstar;
+    src: url(Fontes/Superstar\ M54.ttf);
+}
+@font-face {
+    font-family: Intell;
+    src: url(Fontes/SF\ Intellivised.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+}
+/* HOME SCREEN */
+
+#home-screen{
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden; 
+    background-attachment: fixed;
+    background-position: center;   
+}
+
+#title-open {
+    font-family: Superstar;
+    color: #FFF;
+    margin-bottom: 30px;
+} 
+
+/*OPEN GAMER */
+
+#open-gamer{
+    background-image: url(img-back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Superstar';
+    font-size: 3.5rem;
+}
+
+#vs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+#transparente {
+    background-color: rgba(60, 64, 73, 0.9);
+    width: 75%;
+    height: 95%;
+    color: #FFF;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+
+#dc {
+    font-family: 'DC';
+    font-size: 5rem;
+    color: blue;
+}
+
+#marvel {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    color: #FFF;
+    background-color: red;
+}
+
+#screen-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+}
+
+.screen {
+    width: 266px;
+}
+
+#player-1 {
+    width: 180px;
+    height: 330px;
+}
+
+#player-2 {
+    width: 180px;
+    height: 330px;
+}
+
+#photos {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;  
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#title-namem-dc, #title-namem-marvel {
+    font-size: 1.8rem;
+}
+
+/* ARENA SELECTION */
+
+#arena-selection{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-image: url(../city/gotham.webp);
+    display: none;
+    font-size: 4rem;
+}
+
+#title-arena {
+    margin-bottom: 120px;
+    color: black;
+    font-family: 'Superstar';
+    font-size: 5rem;
+}
+
+.arena {
+    cursor: pointer;
+}
+
+.title-cityDC {
+    font-size: 2rem;
+    color:blue;
+    font-weight: bold;
+    font-family: 'Intell';
+    cursor: pointer;
+
+}
+
+.title-cityM {
+    font-size: 2rem;
+    color:red;
+    font-weight: bold;
+    font-family: 'Intell';
+    cursor: pointer;
+}
+
+#tit-screen {
+    font-size: 3rem;
+}
+
+#p-screen {
+    font-size: 1rem;
+}
+
+#city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-repeat: no-repeat;   
+}
+
+#btn-arena {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+}
+
+.box-city{
+    margin: 0rem 1rem;
+    border-radius: 20rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width:150;
+    height: 200px;
+}
+
+.box-city > h3 {
+    display: none;
+}
+
+.box-city:hover > h3{
+    display: flex;
+}
+
+.arena {
+    width: 150px;
+    height: 150px;
+    border-radius: 1500px;
+}
+
+#title-arena {
+    margin-bottom: 120px;
+    color: black;
+    font-family: 'Superstar';
+    font-size: 5rem;
+
+}
+
+.progress-bar-dc{
+    --progress: 100;
+    height: 10px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.progress-bar-marvel{
+    --progress:100;
+    height: 10px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.progress-bar-dc::before {
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1) , 80%, 50%);
+    transition: all 1.2s ease;
+}
+
+.progress-bar-marvel::before {
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1) , 80%, 50%);
+    transition: all 1.2s ease;
+}
+
+.bar-dc{
+    background-color: hsla(0, 0%, 80%, 0.233);
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bar-marvel{
+    background-color: hsla(0, 0%, 80%, 0.199);
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* BATTLE */
+
+#fight {
+    text-align: center;
+    font-family: 'Academy';  
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+    background-image: url(../city/gotham.webp);
+    flex-direction: column;
+    display: none;
+}
+
+#title-fight {
+    width: 400px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: Superstar;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;   
+}
+
+#box-players {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+}
+
+#sel-center {
+    margin: 0 2rem;
+    border: solid black 2px;
+}
+
+#hero-dc {
+    width: 334px;
+    height: 66px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+#hero-marvel {
+    width: 334px;
+    height: 66px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#battle {
+    display: none;
+}
+
+#photos img {
+    width: 66px;
+    height: 50px;
+    border: 3px solid black;
+}
+
+/* BOTÕES */
+
+#btn-fight, #btn-back, #btn-battle, #btn-continue, .btn-atack-dc, .btn-atack-marvel {
+    width: 200px;
+    height: 75px;
+    margin-top: 30px;
+    background-color: black;
+    color: #FFF;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'House';
+}
+
+#btn-fight:hover, #btn-back:hover, #btn-battle:hover, .btn-atack-dc:hover, .btn-atack-marvel:hover {
+    background-color: red;
+}
+
+#btn-start {
+    width: 300px;
+    height: 70px;
+    margin-top: 50px;
+    background-color: black;
+    color: #FFF;
+    font-size: 2.4rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'House';
+}
+
+#btn-start:hover {
+    background-color: red;
+}
+
+#btn-fight {
+    visibility: hidden;
+}
+
+#win {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+#title-win {
+    font-family: Superstar;
+    color: red;
+    font-size: 4rem;
+   
+}
+
+#btn-end {
+    width: 400px;
+    height: 75px;
+    margin-top: 30px;
+    background-color: black;
+    color: #FFF;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'House';
+}
+
+#btn-end:hover {
+    background-color: red;
+
+}
