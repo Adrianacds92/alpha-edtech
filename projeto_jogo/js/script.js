@@ -15,7 +15,7 @@ class Hero {
         this.hero = _hero
         this.alt = _alt
         this.typeFight = _typeFight
-        this.dmgUp()
+//         this.dmgUp()
         this.bar = 100
         this.music = _music
         this.gif = _gif
